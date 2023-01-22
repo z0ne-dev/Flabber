@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1096CEA5-497B-41EC-B843-1B9044889859}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "global", "global", "{639153E4-DA92-4D2D-AA22-D6B6E68F5BFA}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		icon.png = icon.png
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flabber.Daemon", "src\Flabber.Daemon\Flabber.Daemon.csproj", "{0D795749-2F10-4B8F-9014-09732CA77A3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D795749-2F10-4B8F-9014-09732CA77A3C} = {1096CEA5-497B-41EC-B843-1B9044889859}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D795749-2F10-4B8F-9014-09732CA77A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D795749-2F10-4B8F-9014-09732CA77A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D795749-2F10-4B8F-9014-09732CA77A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D795749-2F10-4B8F-9014-09732CA77A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
